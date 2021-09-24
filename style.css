@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  background-image: url("https://img.freepik.com/vecteurs-libre/fond-concept-technologie-future-cyber-circuit-rose_42077-4936.jpg?size=626&ext=jpg");
+  font-family: "Roboto", sans-serif;
+}
+ul {
+  padding: 0;
+}
+.container {
+  background: pink;
+  color: #1c1c1c;
+  margin: 54px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px white;
+  padding: 80px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 130px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 20px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: #f8f8ff;
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+}
+.projeto-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.dark {
+  background-image: url("https://thumbs.dreamstime.com/b/view-young-women-eye-technology-background-macro-view-young-women-eye-technology-background-109021242.jpg");
+
+  /*background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);*/
+}
+.dark .container {
+  background: #333439;
+  color: white;
+}
+.dark .projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
